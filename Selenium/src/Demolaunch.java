@@ -34,4 +34,4 @@ public class Demolaunch {
 		for(int i=lst.size()-1;i<0;i++)
 			driver.switchTo().window(lst.get(i)).close();
 	}
-}																									
+}
