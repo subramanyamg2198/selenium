@@ -11,8 +11,7 @@ public static void main(String[] args) throws InterruptedException{
 	driver.manage().window().maximize();
 	driver.get("https://www.urbanladder.com/");
 	Thread.sleep(7000);
-	WebElement cl=driver.findElement(By.xpath("//a[@class='close-reveal-modal hide-mobile']"));
-	cl.click();
-		
+	WebElement al=driver.findElement(By.xpath("//a[@class='close-reveal-modal hide-mobile']"));
+	al.click();
 }
 }
